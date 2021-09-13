@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "827120623113",
+    "project_id": "twiliovoiceapp-ae38f",
+    "storage_bucket": "twiliovoiceapp-ae38f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827120623113:android:d5edf9fc16425beeb362d8",
+        "android_client_info": {
+          "package_name": "com.emman.voiceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827120623113-r67s6ponictmpkkafbihsrtbc4ef0c6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdi2uDsi1p8JWSgpiHZWUL4xKin5HPXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827120623113-r67s6ponictmpkkafbihsrtbc4ef0c6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827120623113:android:521818c1093ccfa0b362d8",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827120623113-r67s6ponictmpkkafbihsrtbc4ef0c6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdi2uDsi1p8JWSgpiHZWUL4xKin5HPXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827120623113-r67s6ponictmpkkafbihsrtbc4ef0c6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

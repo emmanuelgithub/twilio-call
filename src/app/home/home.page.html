@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Twilio Receive Incoming calls
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style="width: 100%; height: 100%;" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="8px">
+      <ion-img style="width: 300px;" src="assets/support.jpg"></ion-img>
+      <div>Status: {{status}}</div>
+      <div *ngIf="!calling" fxLayout="row wrap" fxLayoutGap="8px">
+          <ion-button color="success" (click)="acceptCallInvite()">Receive</ion-button>
+          <ion-button color="danger" (click)="rejectCallInvite()">Reject</ion-button>
+      </div>
+      <div *ngIf="calling" fxLayout="row wrap" fxLayoutGap="8px">          
+        <ion-button color="success" (click)="speaker()">Speaker {{ speakerEnabled ? 'ON' : 'OFF'}}</ion-button>
+        <ion-button color="danger" (click)="disconnect()">Close Call</ion-button>
+      </div>
+  </div>  
+</ion-content>

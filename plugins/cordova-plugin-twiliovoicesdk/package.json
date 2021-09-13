@@ -1,0 +1,69 @@
+{
+  "_from": "cordova-plugin-twiliovoicesdk@6.0.0",
+  "_id": "cordova-plugin-twiliovoicesdk@6.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Yn2fCH8JpkBObofMtPFyIJ11/68S0QAOMofa4i2N/JT+bn4lXDG6okifKEuwJftOfOh2aYoTv2M/6U5q2DLX9Q==",
+  "_location": "/cordova-plugin-twiliovoicesdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-twiliovoicesdk@6.0.0",
+    "name": "cordova-plugin-twiliovoicesdk",
+    "escapedName": "cordova-plugin-twiliovoicesdk",
+    "rawSpec": "6.0.0",
+    "saveSpec": null,
+    "fetchSpec": "6.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-twiliovoicesdk/-/cordova-plugin-twiliovoicesdk-6.0.0.tgz",
+  "_shasum": "746d844b276909ffeb9b14d9fe58bd73b976cd1e",
+  "_spec": "cordova-plugin-twiliovoicesdk@6.0.0",
+  "_where": "D:\\Documents\\Ionic_4_Projects\\twilio-call",
+  "author": {
+    "name": "Jeff Linwood"
+  },
+  "bugs": {
+    "url": "https://github.com/jefflinwood/cordova-plugin-twiliovoicesdk/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-twiliovoicesdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Use the Twilio Voice SDK for iOS or Android with Cordova/PhoneGap. Successor to Twilio Client Plugin",
+  "engines": {
+    "cordovaDependencies": {
+      "<2.5.0": {
+        "cordova": ">=6.4.0",
+        "cordova-android": ">=6.0.0",
+        "cordova-ios": ">=4.3.0"
+      },
+      ">2.5.0": {
+        "cordova": ">=7.0.0",
+        "cordova-android": ">=6.3.0",
+        "cordova-ios": ">=4.4.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/jefflinwood/cordova-plugin-twiliovoicesdk#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-twiliovoicesdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefflinwood/cordova-plugin-twiliovoicesdk.git"
+  },
+  "version": "6.0.0"
+}
